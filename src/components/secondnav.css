@@ -1,0 +1,48 @@
+.secondNavcomp{
+  width: 100%;
+  position: fixed;
+  top: 65px;
+  right: 0;
+  background-color: teal;
+  z-index: 1000;
+}
+
+@media(max-width: 940px){
+  .secondNavcomp{
+    top: 125px;
+  }
+}
+
+@media(max-width: 477px){
+  .secondNavcomp{
+    top: 135px;
+  }
+}
+
+.pageslinknav{
+  max-width: 1240px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#filtertag, #sorttag, #filtertagbudg{
+  padding: 5px;
+  font-size: 16px;
+  width: 150px;
+}
+
+.pageslinknav>div>button{
+  font-size: 14px;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #22a4f1;
+  margin-left: -65px;
+  cursor: pointer;
+  color: white;
+  font-weight: 500;
+}
